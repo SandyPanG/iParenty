@@ -58,15 +58,16 @@ https://www.youtube.com/watch?v=uUGHF0dM6GA
 .col-11{ width:91.66%; }
 .col-12{ width:100%; }
 
-/** Primer Breakpoint de bootstrap **/
-@media /*all and*/ (max-width:576px){
+/** esconde y mostrar **/
+@media (max-width:1023px){ /*menor a x se esconde en el movil el menu de escritorio*/
     [class *='col-'] {
        width: 100%;
     }
     .hide-on-mobile {
-      display: none;
+        display: none;
     }
-
 }
-
-/** End of Grid System **/
+@media (min-width:1023px){ /*mayor a 768 se esconde en el escritorio la hamburguesa*/
+    .hide-on-desktop {
+        display: none;
+    }

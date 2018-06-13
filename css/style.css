@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 56px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 48px;
+}
+
+header {
+  background-image: url("../assets/images/iparenty.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: #0040FF;
+  color: white;
+  height: 56px;
+}
+
+button {
+  background-color: #FFF82A;
+  border-radius: 10px;
+  outline: none;
+  padding: 3%;
+}
+
+.button-1 {
+  margin-top: 10vh;
+}
+
+.button-2 {
+  margin-top: 14vh;
+}
+
+.button-3 {
+  margin-top: 3vh;
+}
+
+.burger-menu {
+    float: right;
+    margin-right: 2em;
+    margin-top: 2vh;
+}
+
+.menu {
+    float:rigth;
+    text-align: right;
+}
+.menu li {
+    display:inline-block;
+    height:56px;
+    padding:20px 10px;
+}
+.menu a {
+    color: #CCC;
+    text-decoration: none;
+}
+.menu a:hover {
+    color:#fff;
+}
+
+.brand {
+  font-weight: bolder;
+  float: left;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+
+
+footer {
+  height: 56px;
+  background-color: #0040FF;
+  text-align: center;
+  color: white;
+  padding: 2em;
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5em;
+}
+
+section img {
+  border-radius: 10%;
+  max-width: 100%;
+}
